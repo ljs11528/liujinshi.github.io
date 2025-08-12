@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jinshi Liu's Academic Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        section {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #2c3e50;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .lang-toggle {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: #3498db;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .lang-toggle:hover {
+            background: #2980b9;
+        }
+        .content-en, .content-zh {
+            display: none;
+        }
+        .content-en.active, .content-zh.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="header-title-en" class="content-en active">Jinshi Liu's Academic Homepage</h1>
+        <h1 id="header-title-zh" class="content-zh">刘金狮的学术主页</h1>
+        <p id="header-subtitle-en" class="content-en active">Welcome to explore my academic journey and research achievements</p>
+        <p id="header-subtitle-zh" class="content-zh">欢迎了解我的学术历程与研究成果</p>
+        <button class="lang-toggle" onclick="toggleLanguage()">Switch to Chinese</button>
+    </header>
+
+    <div class="container">
+        <!-- English Content -->
+        <div id="content-en" class="content-en active">
+            <section id="interest-en">
+                <h2>Interest</h2>
+                <ul>
+                    <li>Semi-supervised Learning</li>
+                    <li>Image/Video/3D Segmentation</li>
+                    <li>VL/Multimodal Understanding</li>
+                    <li>AI for Science</li>
+                </ul>
+            </section>
+
+            <section id="education-en">
+                <h2>Education</h2>
+                <ul>
+                    <li>2013-2017: Central South University, School of Information Science and Engineering, Intelligent Science and Technology, Bachelor's Degree</li>
+                    <li>2017-2020: Central South University, School of Automation, Control Science and Engineering, Master's Degree</li>
+                    <li>2020-2024: Central South University, School of Automation, Control Science and Engineering, Doctoral degree</li>
+                    <li>2021-2024: Pengcheng Laboratory, Frontier Academic Center, Industrial Intelligence Academician Studio, Visiting Ph.D.</li>
+                    <li>2024-present: Central South University, School of Automation, Computer Science and Technology, Postdoctoral</li>
+                </ul>
+            </section>
+
+            <section id="publications-en">
+                <h2>Publications_Main Journal</h2>
+                <ul>
+                    <li><b>J Liu</b>, Z Jiang, W Gui, Z Chen. "A novel particle size detection system based on RGB-laser fusion segmentation with feature dual-recalibration for blast furnace materials," <i>IEEE Transactions on Industrial Electronics</i>, 70(10), 10690-10699, 2022. (Q1, if=7.2)</li>
+                    <li><b>J Liu</b>, Z Jiang, T Cao, Z Chen, C Zhang, W Gui. "Generated pseudo-labels guided by background skeletons for overcoming under-segmentation in overlapping particle objects," <i>IEEE Transactions on Circuits and Systems for Video Technology</i>, 33(6), 2906-2919, 2022. (Q1, if=11.1)</li>
+                    <li><b>J Liu</b>, Z Jiang, W Gui, Z Chen, C Zhang. "Occlusion segmentation: restore and segment invisible areas for particle objects," <i>IEEE Transactions on Automation Science and Engineering</i>, vol. 22, pp. 6631-6642, 2025. (Q1, if=6.4)</li>
+                    <li><b>J Liu</b>, Z Jiang, W Gui, Z Chen, W Luo, C Zhang. "Hierarchical packing model: Estimating the overall particle size distribution from surface images and permeability properties," <i>IEEE Transactions on Instrumentation and Measurement</i>, 73, 1-11, 2023. (Q1, if=5.9)</li>
+                    <li>Z Jiang, C Xu, <b>J Liu</b>*, W Luo, Z Chen, W Gui. "A dual closed-loop digital twin construction method for optimizing the copper disc casting process," <i>IEEE/CAA Journal of Automatica Sinica</i>, 11(3), 581-594, 2024. (Q1, if=19.2)</li>
+                    <li>Z Jiang, <b>J Liu</b>*, Z Chen, W Luo, C Zhang, W Gui. "Overall particle size distribution estimation method based on kinetic modeling and transformer prediction," <i>Engineering Applications of Artificial Intelligence</i>, 128, 107517, 2024. (Q1, if=8.0)</li>
+                    <li>Z Jiang, J Yu, <b>J Liu</b>*, Z Chen, W Gui, T Cao. "A coke detection method based on reweighting a composite feature for mixed material recognition and quantification," <i>IEEE Transactions on Instrumentation and Measurement</i>, 71, 1-12, 2022. (Q1, if=5.9)</li>
+                    <li>L He, Z Yi, <b>J Liu</b>, C Chen, M Lu, Z Chen. "ALSP+: Fast Scene Recovery via Ambient Light Similarity Prior," <i>IEEE Transactions on Image Processing</i>, vol. 34, pp. 4470-4484, 2025. (Q1, if=13.7)</li>
+                </ul>
+                <h2>Publications_Main Conference</h2>
+                <ul>
+                    <li>Pan Liu, <b>J Liu</b>*. "When Confidence Fails: Revisiting Pseudo-Label Selection in Semi-supervised Semantic Segmentation," <i>IEEE of International Conference on Computer Vision (<b>ICCV 2025 highlight</b>)(<a href="https://github.com/PanLiuCSU/CSL">Code</a>)</li>
+                </ul>
+            </section>
+
+            <section id="contact-en">
+                <h2>Contact</h2>
+                <ul>
+                    <li>Work Email: <a href="mailto:ljs11528@csu.edu.cn">ljs11528@csu.edu.cn</a></li>
+                    <li>Personal Email: <a href="mailto:liujs11528@gmail.com">liujs11528@gmail.com</a></li>
+                    <li>Personal Email_CN: <a href="mailto:598003084@qq.com">598003084@qq.com</a></li>
+                    <li>Google Scholar: <a href="https://scholar.google.com/citations?user=Ep-tr-wAAAAJ&hl=zh-CN&oi=ao">Google Scholar Profile</a></li>
+                    <li>Address: School of Automation, Central South University, Changsha, Hunan, China</li>
+                </ul>
+            </section>
+
+            <section id="reward-en">
+                <h2>Reward</h2>
+                <ul>
+                    <li>My past achievements are just a flash in the pan, not worth mentioning.</li>
+                </ul>
+            </section>
+        </div>
+
+        <!-- Chinese Content -->
+        <div id="content-zh" class="content-zh">
+            <section id="interest-en">
+                <h2>兴趣</h2>
+                <ul>
+                    <li>半监督学习Semi-supervised Learning</li>
+                    <li>图像/视频/3D分割Image/Video/3D Segmentation</li>
+                    <li>视觉语言/多模态理解VL/Multimodal Understanding</li>
+                    <li>AI for Science</li>
+                </ul>
+            </section>
+            
+            <section id="education-zh">
+                <h2>教育背景</h2>
+                <ul>
+                    <li>2013-2017：中南大学，信息科学与工程学院，智能科学与技术，学士学位</li>
+                    <li>2017-2020：中南大学，自动化学院，控制科学与工程，硕士学位</li>
+                    <li>2020-2024：中南大学，自动化学院，控制科学与工程，博士学位</li>
+                    <li>2021-2024：鹏城实验室，前沿学术中心，工业智能院士工作室，访问博士</li>
+                    <li>2024-至今：中南大学，自动化学院，计算机科学与技术，博士后</li>
+                </ul>
+            </section>
+
+            <section id="publications-zh">
+                <h2>学术成果_主要期刊论文</h2>
+                <ul>
+                    <li><b>J Liu</b>, Z Jiang, W Gui, Z Chen. "A novel particle size detection system based on RGB-laser fusion segmentation with feature dual-recalibration for blast furnace materials," <i>IEEE Transactions on Industrial Electronics</i>, 70(10), 10690-10699, 2022. (Q1, if=7.2)</li>
+                    <li><b>J Liu</b>, Z Jiang, T Cao, Z Chen, C Zhang, W Gui. "Generated pseudo-labels guided by background skeletons for overcoming under-segmentation in overlapping particle objects," <i>IEEE Transactions on Circuits and Systems for Video Technology</i>, 33(6), 2906-2919, 2022. (Q1, if=11.1)</li>
+                    <li><b>J Liu</b>, Z Jiang, W Gui, Z Chen, C Zhang. "Occlusion segmentation: restore and segment invisible areas for particle objects," <i>IEEE Transactions on Automation Science and Engineering</i>, vol. 22, pp. 6631-6642, 2025. (Q1, if=6.4)</li>
+                    <li><b>J Liu</b>, Z Jiang, W Gui, Z Chen, W Luo, C Zhang. "Hierarchical packing model: Estimating the overall particle size distribution from surface images and permeability properties," <i>IEEE Transactions on Instrumentation and Measurement</i>, 73, 1-11, 2023. (Q1, if=5.9)</li>
+                    <li>Z Jiang, C Xu, <b>J Liu</b>*, W Luo, Z Chen, W Gui. "A dual closed-loop digital twin construction method for optimizing the copper disc casting process," <i>IEEE/CAA Journal of Automatica Sinica</i>, 11(3), 581-594, 2024. (Q1, if=19.2)</li>
+                    <li>Z Jiang, <b>J Liu</b>*, Z Chen, W Luo, C Zhang, W Gui. "Overall particle size distribution estimation method based on kinetic modeling and transformer prediction," <i>Engineering Applications of Artificial Intelligence</i>, 128, 107517, 2024. (Q1, if=8.0)</li>
+                    <li>Z Jiang, J Yu, <b>J Liu</b>*, Z Chen, W Gui, T Cao. "A coke detection method based on reweighting a composite feature for mixed material recognition and quantification," <i>IEEE Transactions on Instrumentation and Measurement</i>, 71, 1-12, 2022. (Q1, if=5.9)</li>
+                    <li>L He, Z Yi, <b>J Liu</b>, C Chen, M Lu, Z Chen. "ALSP+: Fast Scene Recovery via Ambient Light Similarity Prior," <i>IEEE Transactions on Image Processing</i>, vol. 34, pp. 4470-4484, 2025. (Q1, if=13.7)</li>
+                </ul>
+                <h2>学术成果_主要会议论文</h2>
+                <ul>
+                    <li>Pan Liu, <b>J Liu</b>*. "When Confidence Fails: Revisiting Pseudo-Label Selection in Semi-supervised Semantic Segmentation," <i>IEEE of International Conference on Computer Vision (<b>ICCV 2025 highlight</b>)(<a href="https://github.com/PanLiuCSU/CSL">Code</a>)</li>
+                </ul>
+            </section>
+
+            <section id="contact-zh">
+                <h2>联系方式</h2>
+                <ul>
+                    <li>工作邮箱: <a href="mailto:ljs11528@csu.edu.cn">ljs11528@csu.edu.cn</a></li>
+                    <li>个人邮箱: <a href="mailto:liujs11528@gmail.com">liujs11528@gmail.com</a></li>
+                    <li>个人邮箱_CN: <a href="mailto:598003084@qq.com">598003084@qq.com</a></li>
+                    <li>谷歌学术: <a href="https://scholar.google.com/citations?user=Ep-tr-wAAAAJ&hl=zh-CN&oi=ao">Google Scholar Profile</a></li>
+                    <li>地址: 湖南省长沙市中南大学自动化学院</li>
+                </ul>
+            </section>
+
+            <section id="reward-en">
+                <h2>奖励</h2>
+                <ul>
+                    <li>不值一提</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <p id="footer-en" class="content-en active">&copy; 2025 Jinshi Liu | All Rights Reserved</p>
+        <p id="footer-zh" class="content-zh">&copy; 2025 刘金狮 | 所有权利保留</p>
+    </footer>
+
+    <script>
+        function toggleLanguage() {
+            const enContent = document.querySelectorAll('.content-en');
+            const zhContent = document.querySelectorAll('.content-zh');
+            const button = document.querySelector('.lang-toggle');
+            
+            if (enContent[0].classList.contains('active')) {
+                enContent.forEach(el => el.classList.remove('active'));
+                zhContent.forEach(el => el.classList.add('active'));
+                button.textContent = 'Switch to English';
+            } else {
+                zhContent.forEach(el => el.classList.remove('active'));
+                enContent.forEach(el => el.classList.add('active'));
+                button.textContent = 'Switch to Chinese';
+            }
+        }
+    </script>
+</body>
+</html>
